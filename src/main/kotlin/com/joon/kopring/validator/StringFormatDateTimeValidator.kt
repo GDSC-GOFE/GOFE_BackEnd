@@ -8,6 +8,7 @@ import java.time.format.DateTimeFormatter
 
 class StringFormatDateTimeValidator : ConstraintValidator<StringFormatDateTime, String>{
 
+
     private var pattern : String?=null
 
     override fun initialize(constraintAnnotation: StringFormatDateTime?) {
